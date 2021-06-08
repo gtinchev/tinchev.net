@@ -18,7 +18,7 @@ subtitle:
 feature:
 - description: 85%
   icon: eye
-  icon_pack: fab
+  icon_pack: fas
   name: Computer Vision
 - description: 80%
   icon: chart-line
