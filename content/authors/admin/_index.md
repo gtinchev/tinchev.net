@@ -21,6 +21,8 @@ interests:
 - Computer Vision
 - Robotics
 - Machine Learning
+- SLAM
+- Object Detection
 
 # Education to show in About widget
 education:
