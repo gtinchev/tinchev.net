@@ -28,14 +28,14 @@ feature:
   icon: robot
   icon_pack: fas
   name: Robotics
+- description: 90%
+  icon: acmdl
+  icon_pack: ai
+  name: Deep Learning
 - description: 95%
   icon: python
   icon_pack: fab
   name: Python
-- description: 70%
-  icon: skiing
-  icon_pack: fas
-  name: Skiing
 - description: 80%
   icon: volleyball-ball
   icon_pack: fas
