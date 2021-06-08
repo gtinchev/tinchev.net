@@ -22,6 +22,20 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: PhD/DPhil student
+    company: University of Oxford
+    company_url: ''
+    company_logo: org-oxford
+    location: Oxford, UK
+    date_start: '2016-04-27'
+    date_end: ''
+    description: |2-
+        Responsibilities include:
+        
+        * Developed SOTA algorithms for place recognition, odometry, navigation
+        * Deployed a LIDAR loop closure detecting system
+        * Supervised MSc students on 3D deep learning
+
   - title: Computer Vision Scientist
     company: XYZ Reality
     company_url: ''
@@ -47,22 +61,8 @@ experience:
         Responsibilities include:
         
         * Compared efficient generative models
-        * Worked in a team to develop a single universal vocoding model substituting 43 other models
+        * Worked in a team to create a single universal vocoding model replacing 43 other models
         * Researched features for latent representaton of speech signals
-
-  - title: PhD/DPhil student
-    company: University of Oxford
-    company_url: ''
-    company_logo: org-oxford
-    location: Oxford, UK
-    date_start: '2016-04-27'
-    date_end: '2021-05-31'
-    description: |2-
-        Responsibilities include:
-        
-        * Developed SOTA algorithms for place recognition, odometry, navigation
-        * Deployed a LIDAR loop closure detecting system
-        * Supervised MSc students on 3D deep learning
 
   - title: Software Developer
     company: Ikiji Ltd
