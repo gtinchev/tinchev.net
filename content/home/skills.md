@@ -1,7 +1,7 @@
 ---
-# An instance of the Featurette widget.
+# An instance of the Skills widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
-widget: featurette
+widget: skills
 
 # This file represents a page section.
 headless: true
