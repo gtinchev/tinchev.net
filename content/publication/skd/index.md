@@ -1,23 +1,19 @@
 ---
-title: "𝕏 Resolution Correspondence Networks"
+title: "SKD: "
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Shuda Li
-- Kai Han
-- David Mitchell
-- Rigas Kouskouridas
+- Adrian Penate-Sanchez
+- Maurice Fallon
 
 # # Author notes (optional)
 # author_notes:
 - "University of Oxford"
-- "XYZ Reality"
 - "University of Oxford"
-- "XYZ Reality"
-- "XYZ Reality"
+- "University of Oxford"
 
 date: "2020-03-24T00:00:00Z"
 doi: ""
@@ -29,11 +25,11 @@ publishDate: "2017-01-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *arXiv* (in review)
-publication_short: In *arXiv* (in review)
+publication: In *Robotics and Automation Letters/IEEE International Conference on Robotics and Automation*
+publication_short: In *RAL/ICRA*
 
 abstract: In this paper, we aim at establishing accurate dense correspondences between a pair of images with overlapping field of view under challenging illumination variation, viewpoint changes, and style differences. Through an extensive ablation study of the state-of-the-art correspondence networks, we surprisingly discovered that the widely adopted 4D correlation tensor and its related learning and processing modules could be de-parameterised and removed from training with merely a minor impact over the final matching accuracy. Disabling these computational expensive modules dramatically speeds up the training procedure and allows to use 4 times bigger batch size, which in turn compensates for the accuracy drop. Together with a multi-GPU inference stage, our method facilitates the systematic investigation of the relationship between matching accuracy and up-sampling resolution of the native testing images from 1280 to 4K. This leads to discovery of the existence of an optimal resolution 𝕏 that produces accurate matching performance surpassing the state-of-the-art methods particularly over the lower error band on public benchmarks for the proposed network.
 
@@ -50,19 +46,19 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/2012.09842.pdf'
-url_code: 'https://github.com/XYZ-R-D/xrcnet'
+url_pdf: 'https://arxiv.org/pdf/1912.04943.pdf'
+url_code: ''
 url_dataset: ''
 url_poster: ''
-url_project: 'https://xyz-r-d.github.io/xrcnet/'
-url_slides: ''
+url_project: ''
+url_slides: 'https://www.youtube.com/watch?v=Xhvg7-s9g80'
 url_source: ''
-url_video: ''
+url_video: 'https://www.youtube.com/watch?v=Wx6FEWCgWDk'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Geometry match between 3D model and image of the Radcliff Camera in Oxford'
+  caption: 'Top-down view of keypoints (blue) extracted from a point cloud (red) for two competitors and SKD.'
   focal_point: ""
   preview_only: false
 
