@@ -43,7 +43,7 @@ summary: In this paper we investigate state-of-the-art dense correspondence netw
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:

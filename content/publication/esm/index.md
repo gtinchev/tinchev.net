@@ -39,7 +39,7 @@ summary: In this paper we propose a new method for localization that learns to m
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
