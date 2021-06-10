@@ -17,7 +17,7 @@ author_notes:
 - "University of Oxford"
 - "University of Oxford"
 
-date: "2020-09-01T00:00:00Z"
+date: "2020-01-01T00:00:00Z"
 doi: "10.1109/ICRA40945.2020.9196769"
 
 # Schedule page publish date (NOT publication's date).
