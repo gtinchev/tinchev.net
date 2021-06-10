@@ -6,7 +6,7 @@
 # Appearance
 
 theme: minimal
-day_night: false
+day_night: true
 font: ''
 font_size: L
 
@@ -142,7 +142,7 @@ search:
     show_logo: false
 map:
   provider: google
-  api_key: 'AIzaSyBljzfNRcBpqrb-GdTFNmmXMcw_6jnBKjI'
+  api_key: 'AIzaSyD-qmLUh6wKuUXq5w0qfRJkNHOOZB2qVrk'
   zoom: 15
 marketing:
   google_analytics: ''
