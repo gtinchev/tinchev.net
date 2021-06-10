@@ -141,7 +141,7 @@ search:
     index_name: ''
     show_logo: false
 map:
-  provider: 'googlemaps'
+  provider: 1
   api_key: 'AIzaSyD-qmLUh6wKuUXq5w0qfRJkNHOOZB2qVrk'
   zoom: 15
 marketing:
