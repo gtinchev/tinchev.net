@@ -141,9 +141,13 @@ search:
     index_name: ''
     show_logo: false
 map:
-  provider: google
-  api_key: 'AIzaSyBljzfNRcBpqrb-GdTFNmmXMcw_6jnBKjI'
+  provider: ''
+  api_key: ''
   zoom: 15
+# map:
+  # provider: google
+  # api_key: 'AIzaSyBljzfNRcBpqrb-GdTFNmmXMcw_6jnBKjI'
+  # zoom: 15
 marketing:
   google_analytics: ''
   google_tag_manager: ''
