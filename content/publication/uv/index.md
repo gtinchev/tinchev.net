@@ -12,8 +12,8 @@ authors:
 - Daniel Korzekwa
 - Viacheslav Klimkov
 
-# # Author notes (optional)
-# author_notes:
+# Author notes (optional)
+author_notes:
 - "Amazon"
 - "Amazon"
 - "University of Oxford"

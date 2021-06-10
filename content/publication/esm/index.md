@@ -9,8 +9,8 @@ authors:
 - Adrian Penate-Sanchez
 - Maurice Fallon
 
-# # Author notes (optional)
-# author_notes:
+# Author notes (optional)
+author_notes:
 - "University of Oxford"
 - "University of Oxford"
 - "University of Oxford"

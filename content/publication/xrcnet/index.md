@@ -11,8 +11,8 @@ authors:
 - David Mitchell
 - Rigas Kouskouridas
 
-# # Author notes (optional)
-# author_notes:
+# Author notes (optional)
+author_notes:
 - "University of Oxford"
 - "XYZ Reality"
 - "University of Oxford"
