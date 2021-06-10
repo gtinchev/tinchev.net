@@ -15,11 +15,11 @@ authors:
 - "University of Oxford"
 - "University of Oxford"
 
-date: "2020-03-24T00:00:00Z"
-doi: ""
+date: "2020-03-11T00:00:00Z"
+doi: "10.1109/LRA.2021.3065224"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2020-02-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -31,10 +31,10 @@ publication_types: ["2"]
 publication: In *Robotics and Automation Letters/IEEE International Conference on Robotics and Automation*
 publication_short: In *RAL/ICRA*
 
-abstract: In this paper, we aim at establishing accurate dense correspondences between a pair of images with overlapping field of view under challenging illumination variation, viewpoint changes, and style differences. Through an extensive ablation study of the state-of-the-art correspondence networks, we surprisingly discovered that the widely adopted 4D correlation tensor and its related learning and processing modules could be de-parameterised and removed from training with merely a minor impact over the final matching accuracy. Disabling these computational expensive modules dramatically speeds up the training procedure and allows to use 4 times bigger batch size, which in turn compensates for the accuracy drop. Together with a multi-GPU inference stage, our method facilitates the systematic investigation of the relationship between matching accuracy and up-sampling resolution of the native testing images from 1280 to 4K. This leads to discovery of the existence of an optimal resolution 𝕏 that produces accurate matching performance surpassing the state-of-the-art methods particularly over the lower error band on public benchmarks for the proposed network.
+abstract: We present SKD, a novel keypoint detector that uses saliency to determine the best candidates from a point cloud for tasks such as registration and reconstruction. The approach can be applied to any differentiable deep learning descriptor by using the gradients of that descriptor with respect to the 3D position of the input points as a measure of their saliency. The saliency is combined with the original descriptor and context information in a neural network, which is trained to learn robust keypoint candidates. The key intuition behind this approach is that keypoints are not extracted solely as a result of the geometry surrounding a point, but also take into account the descriptor's response. The approach was evaluated on two large LIDAR datasets - the Oxford RobotCar dataset and the KITTI dataset, where we obtain up to 50% improvement over the state-of-the-art in both matchability and repeatability. When performing sparse matching with the keypoints computed by our method we achieve a higher inlier ratio and faster convergence.
 
 # Summary. An optional shortened abstract.
-summary: In this paper we investigate state-of-the-art dense correspondence networks and their ability to process high-resolution images. This leads to discovery of the existence of an optimal resolution 𝕏.
+summary: In this paper we propose a new method of extracing keypoints from point clouds using saliency information from a differentiable descriptor.
 
 tags: []
 
@@ -59,7 +59,7 @@ url_video: 'https://www.youtube.com/watch?v=Wx6FEWCgWDk'
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   caption: 'Top-down view of keypoints (blue) extracted from a point cloud (red) for two competitors and SKD.'
-  focal_point: ""
+  focal_point: "Right"
   preview_only: false
 
 # Associated Projects (optional).
