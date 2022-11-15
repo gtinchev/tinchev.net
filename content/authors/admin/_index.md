@@ -6,7 +6,7 @@ title: Georgi Tinchev
 superuser: true
 
 # Role/position/tagline
-role: PhD/DPhil student
+role: Scientist @ Amazon Alexa
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -18,16 +18,16 @@ bio: My research interests include computer vision, robotics, and machine learni
 
 # Interests to show in About widget
 interests:
-- Computer Vision
-- Robotics
-- Machine Learning
-- SLAM
-- Object Detection
+- SLAM/SfM
+- Keypoint detection in 2D/3D
+- Diffusion models
+- Pointclouds
+- Disentanglement
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
+  - course: PhD in Robotics and Computer Vision
     institution: University of Oxford
     year: 2021
   - course: MSc in Artificial Intelligence
@@ -61,7 +61,7 @@ social:
 # and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: uploads/cv/2106_CV_TinchevGeorgi.pdf
+  link: uploads/cv/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -70,9 +70,9 @@ email: ""
 highlight_name: true
 ---
 
-Hi! I am currently a DPhil (PhD) student with {{< staticref "https://ori.ox.ac.uk/people/maurice-fallon/" "newtab" >}}Dr. Maurice Fallon{{< /staticref >}} at the {{< staticref "https://ox.ac.uk" "newtab" >}}University of Oxford{{< /staticref >}} as part of the {{< staticref "https://ori.ox.ac.uk/labs/drs/" "newtab" >}}Dynamics Robotics Group{{< /staticref >}} at the {{< staticref "https://ori.ox.ac.uk/" "newtab" >}}Oxford Robotics Institute{{< /staticref >}}. My research interests include SLAM, place recognition, and object detection, deep learning and 3D geometry.
+Hi! I am currently a Scientist at Amazon Research, working on generative modelling and speech disentanglement of {{< staticref "https://www.amazon.science/blog?q=&f1=0000016e-39f7-da81-a5ef-3df7e27d0000&f1=0000016e-4cbb-d83c-a1ef-eebbe51b0000&s=0&expandedFilters=Research%2520area%2CTag%2CConference%2CAuthor%2CDate%2C" "newtab" >}} text-to-speech systems on Alexa{{< /staticref >}}.
 
-Previously I interned as computer vision scientist at {{< staticref "https://www.xyzreality.com/" "newtab" >}}XYZ Reality{{< /staticref >}} woriking on correspondence estimation algorithms. Prior to that I interned as an applied scientist at {{< staticref "https://amazon.jobs/en-gb/landing_pages/Cambridge/" "newtab" >}}Amazon Research{{< /staticref >}} working on speech synthesis for Alexa. I completed a MSc Artificial Intelligence degree at the {{< staticref "https://www.ed.ac.uk/studying/postgraduate/degrees?id=107&r=site/view" "newtab" >}}University of Edinburgh{{< /staticref >}} and I hold a first class honours degree in computing science from the {{< staticref "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/527/G400/computing-science/" "newtab" >}}University of Aberdeen{{< /staticref >}}. My free time I spend playing {{< staticref "https://www.facebook.com/watch/?v=1800559033324099" "newtab" >}}volleyball{{< /staticref >}}, {{< staticref "https://www.facebook.com/photo?fbid=10205785777114143&set=a.2536746828489" "newtab" >}}travelling{{< /staticref >}} and {{< staticref "https://scontent.fsof10-1.fna.fbcdn.net/v/t31.18172-8/18193219_10208278104260764_5565674212477780164_o.jpg?_nc_cat=105&ccb=1-3&_nc_sid=e3f864&_nc_ohc=bJ1KQ09X1QkAX8Hjcfk&tn=1IIv_McIE4m5XX02&_nc_ht=scontent.fsof10-1.fna&oh=ec805701be7619fb720be48da7a17a01&oe=60E4D6A5" "newtab" >}}skiing{{< /staticref >}}.
+Previously I was a DPhil (PhD) student with {{< staticref "https://ori.ox.ac.uk/people/maurice-fallon/" "newtab" >}}Dr. Maurice Fallon{{< /staticref >}} at the {{< staticref "https://ox.ac.uk" "newtab" >}}University of Oxford{{< /staticref >}} as part of the {{< staticref "https://ori.ox.ac.uk/labs/drs/" "newtab" >}}Dynamics Robotics Group{{< /staticref >}} at the {{< staticref "https://ori.ox.ac.uk/" "newtab" >}}Oxford Robotics Institute{{< /staticref >}}. My research interests include SLAM, place recognition, keypoint detection and correspondence estimation, and generative deep learning, specifically diffusion models. Before that I interned as computer vision scientist at {{< staticref "https://www.xyzreality.com/" "newtab" >}}XYZ Reality{{< /staticref >}} woriking on correspondence estimation algorithms. Prior to that I interned as an applied scientist at {{< staticref "https://amazon.jobs/en-gb/landing_pages/Cambridge/" "newtab" >}}Amazon Research{{< /staticref >}} working on speech synthesis for Alexa. I completed a MSc Artificial Intelligence degree at the {{< staticref "https://www.ed.ac.uk/studying/postgraduate/degrees?id=107&r=site/view" "newtab" >}}University of Edinburgh{{< /staticref >}} and I hold a first class honours degree in computing science from the {{< staticref "https://www.abdn.ac.uk/study/undergraduate/degree-programmes/527/G400/computing-science/" "newtab" >}}University of Aberdeen{{< /staticref >}}. My free time I spend playing {{< staticref "https://www.facebook.com/watch/?v=1800559033324099" "newtab" >}}volleyball{{< /staticref >}}, {{< staticref "https://www.facebook.com/photo?fbid=10205785777114143&set=a.2536746828489" "newtab" >}}travelling{{< /staticref >}} and {{< staticref "https://scontent-lcy1-2.xx.fbcdn.net/v/t1.6435-9/48393464_777122655971753_7052946365776658432_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=84a396&_nc_ohc=Q4NtX4ysm0YAX9l_186&_nc_ht=scontent-lcy1-2.xx&oh=00_AfBDUvjZyMtGx0KAdzTA2ePkgOokrXH0ORBvhPhr6SUG9Q&oe=639B2C96" "newtab" >}}skiing{{< /staticref >}}.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv/2106_CV_TinchevGeorgi.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 
