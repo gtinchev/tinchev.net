@@ -22,6 +22,20 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Applied Scientist II
+    company: Amazon
+    company_url: ''
+    company_logo: org-amazon
+    location: London, UK
+    date_start: '2021-10-11'
+    date_end: ''
+    description: |2-
+        Responsibilities include:
+        
+        * Tech lead of a team on disentanglement technology for Alexa
+        * Delivered machine learning models at scale to production
+        * Supervised PhD interns working on diffusion models
+
   - title: PhD/DPhil student
     company: University of Oxford
     company_url: ''
@@ -46,7 +60,7 @@ experience:
     description: |2-
         Responsibilities include:
         
-        * Analyzing correspondence networks
+        * Inventing and evaluating correspondence networks
         * Protyping proof-of-concept NeRF
         * Patenting SLAM technology
         
