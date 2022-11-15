@@ -42,7 +42,7 @@ experience:
     company_logo: org-oxford
     location: Oxford, UK
     date_start: '2016-04-27'
-    date_end: ''
+    date_end: '2021-04-27'
     description: |2-
         Responsibilities include:
         
