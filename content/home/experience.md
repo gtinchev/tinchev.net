@@ -34,7 +34,7 @@ experience:
         
         * Tech lead of a team on disentanglement technology for Alexa
         * Delivered machine learning models at scale to production
-        * Supervised PhD interns working on diffusion models
+        * Reserach on state-of-the-art generative models
 
   - title: PhD/DPhil student
     company: University of Oxford

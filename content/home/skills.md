@@ -20,7 +20,7 @@ feature:
   icon: eye
   icon_pack: fas
   name: Computer Vision
-- description: 80%
+- description: 85%
   icon: chart-line
   icon_pack: fas
   name: Machine Learning
@@ -28,7 +28,7 @@ feature:
   icon: robot
   icon_pack: fas
   name: Robotics
-- description: 90%
+- description: 92%
   icon: acmdl
   icon_pack: ai
   name: Deep Learning
@@ -36,7 +36,7 @@ feature:
   icon: python
   icon_pack: fab
   name: Python
-- description: 80%
+- description: 84%
   icon: volleyball-ball
   icon_pack: fas
   name: Volleyball
