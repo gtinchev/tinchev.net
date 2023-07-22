@@ -1,26 +1,26 @@
 ---
-title: "Modelling low-resource accents without accent-specific TTS frontend"
+title: "Diffusion-based accent modelling in speech synthesis"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
+- Kamil Deja
 - admin
 - Marta Czarnowska
-- Kamil Deja
-- Kayoko Yanagisawa
 - Marius Cotescu
+- Jasha Droppo
 
 # Author notes (optional)
 author_notes:
-- "Amazon Research"
-- "Amazon Research"
 - "Warsaw University of Technology"
+- "Amazon Research"
+- "Amazon Research"
 - "Amazon Research"
 - "Amazon Research"
 
 date: "2023-06-04T00:00:00Z"
-doi: "10.1109/ICASSP49357.2023.10095773"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2023-06-04T00:00:00Z"
@@ -32,13 +32,13 @@ publishDate: "2023-06-04T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE International Conference on Acoustics, Speech and Signal Processing*
-publication_short: In *ICASSP*
+publication: In *Interspeech*
+publication_short: In *Interspeech*
 
-abstract: This work focuses on modelling a speaker’s accent that does not have a dedicated text-to-speech (TTS) frontend, including a grapheme-to-phoneme (G2P) module. Prior work on modelling accents assumes a phonetic transcription is available for the target accent, which might not be the case for low-resource, regional accents. In our work, we propose an approach whereby we first augment the target accent data to sound like the donor voice via voice conversion, then train a multi-speaker multi-accent TTS model on the combination of recordings and synthetic data, to generate the donor’s voice speaking in the target accent. Throughout the procedure, we use a TTS frontend developed for the same language but a different accent. We show qualitative and quantitative analysis where the proposed strategy achieves state-of-the-art results compared to other generative models. Our work demonstrates that low resource accents can be modelled with relatively little data and without developing an accent-specific TTS frontend. Audio samples of our model converting to multiple accents are available on our <a href="https://bit.ly/diffuse-accent" target="_blank">web page</a>.
+abstract: In this work, we introduce a diffusion-based text-to-speech (TTS) system for accent modelling. TTS systems have become a natural part of our surroundings. Nevertheless, because of the complexity of accent modelling, recent state-of-the-art solutions mainly focus on the most common variants of each language. In this work, we propose to address this issue with a newly proposed diffusion generative model (DDGM). We first show how we can adapt DDGMs to the problem of accent modelling. We evaluate and compare this approach with a recent state-of-the-art solution, showing its superiority in modelling six different English accents. On top of our TTS system, we introduce a novel accent conversion method, where using the saliency map technique, we remove source accent-related features and replace them with the target ones through the diffusion process. We show that with this approach, we can perform accent conversion without a need for any additional speech information such as phonemes or text.
 
 # Summary. An optional shortened abstract.
-summary: In this paper we model accented speech by providing aditional data via voice augmentation. This leads to reliable accent generation without a TTS frontend.
+summary: In this paper we model accents by adding extra conditioning to a diffusion model. We also convert the accent by using saliency to achieve accent inpainting in melspectrograms.
 
 tags: []
 
@@ -50,19 +50,19 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://assets.amazon.science/e6/e3/d99bf71f40bbb7e3aa0949b6786b/modelling-low-resource-accents-without-accent-specific-tts-frontend.pdf'
+url_pdf: 'https://assets.amazon.science/5f/ec/df57a8274fc8bec4e1a59f5dc6e8/diffusion-based-accent-modelling-in-speech-synthesis.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://bit.ly/3V52ZrF'
+url_source: 'https://bit.ly/diffuse-accent'
 url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Architecture of proposed TTS system'
+  caption: 'Architecture of the accented diffusion model'
   focal_point: ""
   preview_only: false
 
